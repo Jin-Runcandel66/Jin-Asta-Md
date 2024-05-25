@@ -1,5 +1,5 @@
 {
-   "name": "asta-md@3.5.0",
+   "name": "jin-asta-md@3.5.0",
    "version": "3.5.0",
    "description": "Simple WhatsApp Bot",
    "main": "index.js",
@@ -13,7 +13,7 @@
      "fis-heroku-postbuild": "git clone https://github.com/Astropeda/Asta-Md.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
      "postinstall": "npx puppeteer@latest install --y"
    },
-   "author": "Astropeda",
+   "author": "Jin-Runcandel",
    "license": "GPL-2.0 license",
    "dependencies": {
      "@adiwajshing/keyed-db": "^0.2.4",
