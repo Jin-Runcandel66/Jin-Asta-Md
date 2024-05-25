@@ -3,8 +3,8 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""
-global.email ="astromedia0010@gmail.com"
-global.location="Astro,World"
+global.email ="mikototsukuyomi4@gmail.com"
+global.location="Pakistan, Gujranwala"
 
 
 global.mongodb= process.env.MONGODB_URI || ""
@@ -21,9 +21,9 @@ global.caption = process.env.CAPTION || global.caption || "αѕтα-м∂ 2024"
 global.BUTTONS = process.env.BUTTONS || process.env.MENU_BTN || "1";
 
 
-global.devs = "2348039607375"
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "2348039607375";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2348039607375";
+global.devs = "923001276464"
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "923001276464";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923001276464";
 global.style = process.env.STYLE   || '2'
 global.flush = process.env.FLUSH   || "false"; 
 global.gdbye = process.env.GOODBYE || "false"; 
@@ -65,10 +65,10 @@ module.exports = {
   VERSION : process.env.VERSION || "3.0.0",
   caption : global.caption || "αѕтα-м∂ 2024" , 
  
-  author : process.env.PACK_AUTHER|| "αѕтяσ",
-  packname: process.env.PACK_NAME || "αѕтяσ",
+  author : process.env.PACK_AUTHER|| "𝐽𝛪𝛮 𝑅𝑈𝛮𝐶𝛥𝛮𝐷𝛯𝐿",
+  packname: process.env.PACK_NAME || "𝐽𝛪𝛮 𝑅𝑈𝛮𝐶𝛥𝛮𝐷𝛯𝐿",
   botname : process.env.BOT_NAME  || "ᴀsᴛᴀ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "αѕтяσ",
+  ownername:process.env.OWNER_NAME|| "𝐽𝛪𝛮 𝑅𝑈𝛮𝐶𝛥𝛮𝐷𝛯𝐿",
   errorChat : process.env.ERROR_CHAT || "",
   KOYEB_API : process.env.KOYEB_API  || "false",
   REMOVE_BG_KEY : process.env.REMOVE_BG_KEY  || "",
